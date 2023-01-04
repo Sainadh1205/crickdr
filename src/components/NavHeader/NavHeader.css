@@ -1,0 +1,46 @@
+.nav-text {
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.bottom {
+  width: 100%;
+  background-color: #8faaaa;
+  min-height: 35px;
+  height: 10%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.countries {
+  margin-right: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  #responsive-navbar-nav {
+    background-color: #8faaaa;
+    border-radius: 0px 0px 20px 20px;
+  }
+  .bottom {
+    display: none;
+  }
+
+  #nav-toggle {
+    background-color: #94a9a9;
+  }
+}
+
+.countries:hover,
+.nav-text:hover {
+  transform: scale(1.1);
+  color: gold;
+}

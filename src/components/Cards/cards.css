@@ -1,0 +1,17 @@
+.img-container {
+  width: 80vw;
+}
+
+.cards-container {
+  margin-top: 10px;
+  width: 70vw;
+}
+
+.cards-text {
+  /* margin: 10px; */
+  text-align: justify;
+}
+
+.flat-cards-container {
+  width: 60%;
+}
